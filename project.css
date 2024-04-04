@@ -1,0 +1,240 @@
+body {
+    background-image: url(bg-img-projects.png);
+    background-repeat: no-repeat;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{ 
+    padding-top: 20px;
+    padding-left: 60px;
+    margin: 0;
+    height: 75px;
+    float: left ;
+    
+}
+.aboutus{
+  font-size: medium; 
+  color: rgb(119, 113, 113);
+  text-align:justify;
+  padding-left:40px ;
+  width: 50vw;
+  height:fit-content
+}
+.heading {
+    margin: 0;
+    height: 55px;
+    background-color:#becfd5;
+    color: #65787e;
+    padding : 10px;
+    padding-top: 30px;
+    padding-right: 120px;
+    text-align: center ;
+    
+    
+}
+.container{
+    display: flex;
+    align-self: flex-start ;
+}
+.sitename{
+    float: left;
+}
+.locationbutt{
+    height: 25px;
+    float: right;
+    background-color: #becfd5;
+    color: rgb(0, 6, 4);
+    border: 0;
+    border-radius: 3px;
+}
+
+
+
+.sticky{
+  position: relative;
+  top:0px;
+  
+}
+
+
+nav {
+    background: #becfd5;
+    padding: 10px;
+    text-align: center;
+   
+    
+}
+
+nav a {
+    color: #53787e;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+*{
+    margin: 0;
+}
+#slider{
+    height: 404px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.container{
+    width: 1600px;
+    margin: auto;
+}
+.sitename{
+    color: rgb(119, 113, 113);
+}
+.subcontainer{
+    width: 85%;
+    margin: auto;;
+}
+
+.slide-img{
+    width: 100%;
+    height: 275px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgb(0, 0, 0, 0.9) inset;
+}
+
+.slide-img a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.slide-img:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+.img-1{
+   background-image: url(IMG-Kahan1.jpg);
+}
+.img-2{
+    background-image: url(IMG-Kahan2.jpg);
+ }
+ .img-3{
+    background-image: url(IMG-Kahan3.jpg);
+ }
+ .img-4{
+    background-image: url(IMG-Kahan4.jpg);
+ }
+ .img-5{
+    background-image: url(IMG-Kahan5.jpg);
+ }
+ .img-6{
+    background-image: url(IMG-Kahan6.jpg);
+ }
+
+
+ .img-7{
+    background-image: url(IMG-Shree-kunj-1.jpg);
+ }
+ .img-8{
+    background-image: url(IMG-Shree-kunj-2.jpg);
+ }
+ .img-9{
+    background-image: url(IMG-Shree-kunj-3.jpg);
+ }
+ .img-10{
+    background-image: url(IMG-Shree-kunj-4.jpg);
+ }
+
+
+ .img-11{
+    background-image: url(Antrix-img1.png);
+ }
+ .img-12{
+    background-image: url(Antrix-img2.png);
+ }
+ .img-13{
+    background-image: url(Antrix-img3.png);
+ }
+ .img-14{
+    background-image: url(Antrix-img4.png);
+ }
+ .image-size{
+    height: 275px;
+    width: 359px;
+ }
+ .footersection{
+    height: 480px;
+    align-items:  center;
+    justify-content: space-around;
+    background-color: #becfd5;
+    display: flex;
+ }
+
+ .div1{
+    
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #becfd5;
+   padding-left: 60px;
+    height: 258px;
+    width: 380px;
+
+ }
+.div2{
+    color: white;
+  
+    text-align: center;
+    background-color:#becfd5;
+   
+    height: 258px;
+    width: 320px;
+    
+ }
+ .grid-container{
+    padding-left: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    row-gap: 10px;
+    column-gap: 10px;
+
+ }
+ .slider3
+{
+    padding-bottom: 60px;
+}
+.insta-imgs{
+    height: 100px;
+    width: 100px;
+    
+}
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}

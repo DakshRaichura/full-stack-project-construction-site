@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<link rel="stylesheet" href="construction.css">
+<body>
+    <header class="sticky">
+        <div>
+            <img class="logo" src="shreekunjfinal.png" >
+            <h1 class="heading">Shree Kunj Developers</h1>
+            <nav >
+                <a href="index.html">Home</a>
+                <!-- <a href="#">Services</a> -->
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+     <video class="elementor-video" src="Shree-kunj-logo-reveal.mp4" autoplay="" loop="" muted="muted"   playsinline="" controlslist="nodownload"> 
+     </video>  
+    </div>
+
+    <div class="contact-form">
+        <h2>Get in touch</h2>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            
+            <input type="hidden" name="access_key" value="9a197d5c-6bef-4765-9869-58548fa29d5f">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <section class="footersection">
+            <div class="div1">
+                <h2>ABOUT US</h2>
+                <hr><br>
+                <p>Welcome to Shreekunj Real Estate Developers, where we turn dreams into reality. With a portfolio boasting 2 successfully completed projects,
+                    <br> <br>
+    
+                    we take pride in creating spaces that resonate with the essence of happy living.
+                </p>
+            </div>
+    
+            <div class="div2">
+               <h2>Follow Us on Instagram</h2> <hr><br>
+               <div class="grid-container">
+                    <a href="https://www.instagram.com/shreekunjdevelopers?igsh=NDFqc3dyYjZieGRh"> <img src="IMG-Kahan1.jpg" class="insta-imgs"></a>
+                    <a href="https://www.instagram.com/shreekunjdevelopers?igsh=NDFqc3dyYjZieGRh"> <img src="IMG-Kahan2.jpg" class="insta-imgs"></a>
+                    <a href="https://www.instagram.com/shreekunjdevelopers?igsh=NDFqc3dyYjZieGRh"> <img src="IMG-Kahan3.jpg" class="insta-imgs"></a>
+                    <a href="https://www.instagram.com/shreekunjdevelopers?igsh=NDFqc3dyYjZieGRh"> <img src="IMG-Kahan4.jpg" class="insta-imgs"></a>
+                    <a href="https://www.instagram.com/shreekunjdevelopers?igsh=NDFqc3dyYjZieGRh"> <img src="IMG-Kahan5.jpg" class="insta-imgs"></a>
+                    <a href="https://www.instagram.com/shreekunjdevelopers?igsh=NDFqc3dyYjZieGRh"> <img src="IMG-Kahan6.jpg" class="insta-imgs"></a>
+               </div>
+            </div>
+    
+        </section>
+        
+    </footer>
+    
+    
+
+    
+    <style> 
+    .heading{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+            header {
+            width: 100%;
+            padding:  0;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the header */
+            color: #fff;
+            position: relative;
+            z-index: 2;
+        }
+        .elementor-video{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: auto;
+            position:relative;
+            top: 0;
+            right: 0;
+            bottom: 10;
+            left: 0;
+            overflow: hidden;
+            z-index: 1; 
+        }
+            .contact-form {
+            position: absolute; /* Position relative to the nearest positioned ancestor or body */
+            top: 70%; /* Align vertically to the middle */
+            right: 2%; /* Distance from the right edge of the viewport */
+            transform: translateY(-50%); /* Vertically center the form */
+            width: 30%; /* Adjust width as needed */
+            padding: 20px;
+            background: rgba(255, 255, 255, 0); /* Semi-transparent background for readability */
+           
+            z-index: 1; /* Ensure form is visible above the video */
+         }
+
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+        button[type="submit"] {
+            background: #005aee;
+            color: #fff;
+            padding: 10px 20px;
+            border: 0;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background: #0041cc;
+        }
+
+        .image-size{
+    height: 275px;
+    width: 359px;
+ }
+ footer{
+    width: 100%;
+ }
+ .footersection{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 480px;
+    align-items:  center;
+    justify-content: space-around;
+    background-color: #becfd5;
+    display: flex;
+    position: absolute;
+ }
+
+ .div1{
+    
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #becfd5;
+   padding-left: 60px;
+    height: 258px;
+    width: 380px;
+
+ }
+.div2{
+    color: white;
+  
+    text-align: center;
+    background-color:#becfd5;
+   
+    height: 258px;
+    width: 320px;
+    
+ }
+ .grid-container{
+    padding-left: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    row-gap: 10px;
+    column-gap: 10px;
+
+ }
+ .slider3
+{
+    padding-bottom: 60px;
+}
+.insta-imgs{
+    height: 100px;
+    width: 100px;
+    
+}
+        
+
+
+    </style>
+   
+</body>
+
+
+
+
+</html>  
